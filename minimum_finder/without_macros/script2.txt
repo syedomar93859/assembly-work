@@ -1,0 +1,76 @@
+Script started on 2024-09-24 17:36:50-06:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="119" LINES="52"]
+
+Disk quotas for user syed.omar (uid 24684843):
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                  1349M  10240M  10240M           20595    100k    100k
+
+^[]0;syed.omar@csa2:~^G^[[?2004h[UC syed.omar@csa2 ~] gdb ^[[7mvim Assignment1-Ver2.s^[[27m
+^M^[[A^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[Cexit^[[K
+^M^[[K^[[A^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^H^H^H>
+^Ml^M^[[K^[[K^[[A^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[>
+^[[?2004l^M^[[35;1mGNU gdb (Fedora Linux) 14.2-3.fc40^[[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <^[[32mhttp://gnu.org/licenses/gpl.html^[[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+^[[32m<https://www.gnu.org/software/gdb/bugs/>^[[m.
+Find the GDB manual and other documentation resources online at:
+    <^[[32mhttp://www.gnu.org/software/gdb/documentation/^[[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ^[[32mAssignment1-Ver2^[[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <^[[32mhttps://debuginfod.fedoraproject.org/^[[m>
+^[[?2004hEnable debuginfod for this session? (y or [n]) y
+^[[?2004l^MDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+^M                                                                                                                      >
+^[[?2004h(gdb) break gdb1
+^[[?2004l^MBreakpoint 1 at ^[[34m0x410264^[[m
+^[[?2004h(gdb) r
+^[[?2004l^MStarting program: ^[[32m/home/csusers/syed.omar/Assignment1-Ver2^[[m
+^M                                                                                                                      >
+Using host libthread_db library "^[[32m/lib64/libthread_db.so.1^[[m".
+x = -11, y = 48344, min = 48344
+x = -10, y = 27417, min = 27417
+x = -9, y = 13036, min = 13036
+x = -8, y = 3833, min = 3833
+x = -7, y = -1416, min = -1416
+x = -6, y = -3791, min = -3791
+x = -5, y = -4228, min = -4228
+x = -4, y = -3519, min = -4228
+x = -3, y = -2312, min = -4228
+x = -2, y = -1111, min = -4228
+x = -1, y = -276, min = -4228
+x = 0, y = -23, min = -4228
+x = 1, y = -424, min = -4228
+x = 2, y = -1407, min = -4228
+x = 3, y = -2756, min = -4228
+x = 4, y = -4111, min = -4228
+x = 5, y = -4968, min = -4968
+x = 6, y = -4679, min = -4968
+x = 7, y = -2452, min = -4968
+x = 8, y = 2649, min = -4968
+x = 9, y = 11704, min = -4968
+
+Breakpoint 1, ^[[34m0x0000000000410264^[[m in ^[[33mgdb1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mp/d $x#^[[27m^H^H^H^H^H^H^Hp/d $x#^H^[[C^H^[[K28
+^[[?2004l^M$1 = -4968
+^[[?2004h(gdb) q
+^[[?2004l^M^[[?2004hA debugging session is active.
+
+        Inferior 1 [process 2617392] will be killed.
+
+Quit anyway? (y or n) y
+^[[?2004l^M^[]0;syed.omar@csa2:~^G^[[?2004h[UC syed.omar@csa2 ~] exit
+^[[?2004l^Mexit
+
+Script done on 2024-09-24 17:39:06-06:00 [COMMAND_EXIT_CODE="0"]
+

@@ -1,0 +1,208 @@
+Script started on 2024-09-24 16:46:05-06:00 [TERM="xterm-256color" TTY="/dev/pts/43" COLUMNS="110" LINES="38"]
+
+Disk quotas for user syed.omar (uid 24684843):
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                  1349M  10240M  10240M           20591    100k    100k
+
+^[]0;syed.omar@csa2:~^G^[[?2004h[UC syed.omar@csa2 ~] gdb ^[[7mAssignment1Version1^[[27m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^HAssignment1Version1^H^[[C.s^H^[[K^H^[[K
+^[[?2004l^M^[[35;1mGNU gdb (Fedora Linux) 14.2-3.fc40^[[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <^[[32mhttp://gnu.org/licenses/gpl.html^[[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+^[[32m<https://www.gnu.org/software/gdb/bugs/>^[[m.
+Find the GDB manual and other documentation resources online at:
+    <^[[32mhttp://www.gnu.org/software/gdb/documentation/^[[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ^[[32mAssignment1Version1^[[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <^[[32mhttps://debuginfod.fedoraproject.org/^[[m>
+^[[?2004hEnable debuginfod for this session? (y or [n]) y
+^[[?2004l^MDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+Downloading separate debug info for ^[[32m/home/csusers/syed.omar/Assignment1Version1^[[m
+^M[###                                                                                                       ]^M                                                                                           >
+^[[?2004h(gdb) break gdb1
+^[[?2004l^MBreakpoint 1 at ^[[34m0x4101ec^[[m
+^[[?2004h(gdb) break gr^H^[[Kdb2
+^[[?2004l^MBreakpoint 2 at ^[[34m0x410200^[[m
+^[[?2004h(gdb) break gdb3
+^[[?2004l^MBreakpoint 3 at ^[[34m0x410210^[[m
+^[[?2004h(gdb) break gdb4
+^[[?2004l^MBreakpoint 4 at ^[[34m0x410214^[[m
+^[[?2004h(gdb) break gdb5
+^[[?2004l^MBreakpoint 5 at ^[[34m0x410220^[[m
+^[[?2004h(gdb) r
+^[[?2004l^MStarting program: ^[[32m/home/csusers/syed.omar/Assignment1Version1^[[m
+^M                                                                                                              ^M^M                                                                                       >
+Using host libthread_db library "^[[32m/lib64/libthread_db.so.1^[[m".
+
+Breakpoint 1, ^[[34m0x00000000004101ec^[[m in ^[[33mloop1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) x/i $pc
+^[[?2004l^M=> ^[[34m0x4101ec^[[m <^[[33mloop1^[[m+4>:   ^[[32mmul^[[m   ^[[31mx21^[[m, ^[[31mx21^[[m, ^[[31mx21^[[m
+^[[?2004h(gdb) ^[[7mp/d $x#^[[27m^H^H^H^H^H^H^Hp/d $x#^H^[[C^H^[[K19
+^[[?2004l^M$1 = -11
+^[[?2004h(gdb) x^H^[[K^[[7mp/d $x#^[[27m^H^H^H^H^H^H^Hp/d $x#^H^[[C^H^[[K20
+^[[?2004l^M$2 = 4294967294
+^[[?2004h(gdb) ^[[7mp/d $x#^[[27m^H^H^H^H^H^H^Hp/d $x#^G^H^[[C^H^[[K21
+^[[?2004l^M$3 = -11
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x00000000004101f0^[[m in ^[[33mloop1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x4101f0^[[m <^[[33mloop1^[[m+8>:   ^[[32mmul^[[m   ^[[31mx21^[[m, ^[[31mx21^[[m, ^[[31mx19^[[m
+^[[?2004h(gdb) ^[[7m p/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[C p/d $x19
+^[[?2004l^M$4 = -11
+^[[?2004h(gdb) ^[[7m p/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[C p/d $x19^H^[[C^H^[[K^H^[[K21
+^[[?2004l^M$5 = 121
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x00000000004101f4^[[m in ^[[33mloop1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x4101f4^[[m <^[[33mloop1^[[m+12>:  ^[[32mmul^[[m   ^[[31mx21^[[m, ^[[31mx21^[[m, ^[[31mx19^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x00000000004101f8^[[m in ^[[33mloop1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x4101f8^[[m <^[[33mloop1^[[m+16>:  ^[[32mmov^[[m   ^[[31mx22^[[m, ^[[34m#0x6                   ^[[m^[[37;2m        // #6^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x00000000004101fc^[[m in ^[[33mloop1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x4101fc^[[m <^[[33mloop1^[[m+20>:  ^[[32mmul^[[m   ^[[31mx23^[[m, ^[[31mx21^[[m, ^[[31mx22^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M
+Breakpoint 2, ^[[34m0x0000000000410200^[[m in ^[[33mgdb2^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410200^[[m <^[[33mgdb2^[[m>:      ^[[32mmul^[[m   ^[[31mx24^[[m, ^[[31mx19^[[m, ^[[31mx19^[[m
+^[[?2004h(gdb) ^[[7mp/d $x21^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x21^H^[[C
+^[[?2004l^M$6 = 14641
+^[[?2004h(gdb) ^[[7mp/d $x21^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x21^H^[[C^H^[[K2
+^[[?2004l^M$7 = 6
+^[[?2004h(gdb) ^[[7mp/d $x21^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x21^H^[[C^H^[[K3
+^[[?2004l^M$8 = 87846
+^[[?2004h(gdb) ^[[7mp/d $x21^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x21^H^[[C^H^[[K2
+^[[?2004l^M$9 = 6
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410204^[[m in ^[[33mgdb2^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410204^[[m <^[[33mgdb2^[[m+4>:    ^[[32mmov^[[m   ^[[31mx25^[[m, ^[[34m#0x14d                 ^[[m^[[37;2m        // #333^[[m
+^[[?2004h(gdb) p/d^H^[[K^H^[[K^H^[[Kni
+^[[?2004l^M^[[34m0x0000000000410208^[[m in ^[[33mgdb2^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x000000000041020c^[[m in ^[[33mgdb3^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x41020c^[[m <^[[33mgdb3^[[m>:      ^[[32mmov^[[m   ^[[31mx29^[[m, ^[[34m#0x4a                  ^[[m^[[37;2m        // #74^[[m
+^[[?2004h(gdb) ^[[7mp/d $x23^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x23^H^H^[[C^[[C^H^[[K6
+^[[?2004l^M$10 = 40293
+^[[?2004h(gdb) ^[[7mp/d $x23^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x23^H^[[C^H^[[K5
+^[[?2004l^M$11 = 333
+^[[?2004h(gdb) ^[[7mp/d $x23^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x23^H^[[C^H^[[K4
+^[[?2004l^M$12 = 121
+^[[?2004h(gdb) ni
+^[[?2004l^M
+Breakpoint 3, ^[[34m0x0000000000410210^[[m in ^[[33mgdb3^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410210^[[m <^[[33mgdb3^[[m+4>:    ^[[32mmul^[[m   ^[[31mx27^[[m, ^[[31mx19^[[m, ^[[31mx29^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M
+Breakpoint 4, ^[[34m0x0000000000410214^[[m in ^[[33mgdb4^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410214^[[m <^[[33mgdb4^[[m>:      ^[[32msub^[[m   ^[[31mx28^[[m, ^[[31mx23^[[m, ^[[31mx26^[[m
+^[[?2004h(gdb) ^[[7mp/d $x24^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x24^H^[[C^H^[[K9
+^[[?2004l^M$13 = 74
+^[[?2004h(gdb) ^[[7mp/d $x24^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x24^H^[[C^H^[[K7
+^[[?2004l^M$14 = -814
+^[[?2004h(gdb) ^[[7mp/d $x24^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x24^H^[[C^H^[[K^H^[[K19
+^[[?2004l^M$15 = -11
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410218^[[m in ^[[33mgdb4^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410218^[[m <^[[33mgdb4^[[m+4>:    ^[[32msub^[[m   ^[[31mx28^[[m, ^[[31mx28^[[m, ^[[31mx27^[[m
+^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^H^[[1Px/i $p^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^G^G^G^Gni
+^[[?2004l^M^[[34m0x000000000041021c^[[m in ^[[33mgdb4^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x41021c^[[m <^[[33mgdb4^[[m+8>:    ^[[32msub^[[m   ^[[31mx28^[[m, ^[[31mx28^[[m, ^[[34m#0x17^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M
+Breakpoint 5, ^[[34m0x0000000000410220^[[m in ^[[33mgdb5^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410220^[[m <^[[33mgdb5^[[m>:      ^[[32mldr^[[m   ^[[31mx0^[[m, ^[[34m0x410260^[[m <^[[33mexitloop1^[[m+8>
+^[[?2004h(gdb) ^[[7mp/d $x29^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x29^H^[[C^H^[[K8
+^[[?2004l^M$16 = 48344
+^[[?2004h(gdb) ^[[7mp/d $x29^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x29^H^[[C^H^[[K7
+^[[?2004l^M$17 = -814
+^[[?2004h(gdb) ^[[7mp/d $x29^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x29^H^[[C^H^[[K6
+^[[?2004l^M$18 = 40293
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410224^[[m in ^[[33mgdb5^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410228^[[m in ^[[33mgdb5^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ni^H^[[K^H^[[K^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410228^[[m <^[[33mgdb5^[[m+8>:    ^[[32mmov^[[m   ^[[31mx2^[[m, ^[[31mx28^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x000000000041022c^[[m in ^[[33mgdb5^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x41022c^[[m <^[[33mgdb5^[[m+12>:   ^[[32mcmp^[[m   ^[[31mx28^[[m, ^[[31mx20^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410230^[[m in ^[[33mgdb5^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410230^[[m <^[[33mgdb5^[[m+16>:   ^[[32mb.lt^[[m  ^[[34m0x410244^[[m <^[[33mnewmin^[[m>^[[37;2m  // b.tstop^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410244^[[m in ^[[33mnewmin^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410244^[[m <^[[33mnewmin^[[m>:    ^[[32mmov^[[m   ^[[31mx20^[[m, ^[[31mx28^[[m
+^[[?2004h(gdb) ^[[7mp/d $x26^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x26^H^[[C^H^[[K8
+^[[?2004l^M$19 = 48344
+^[[?2004h(gdb) ^[[7mp/d $x26^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x26^H^[[C^H^[[K0
+^[[?2004l^M$20 = 4294967294
+^[[?2004h(gdb) ^[[7mp/d $x26^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x26^H^[[C^H^[[K^H^[[K19
+^[[?2004l^M$21 = -11
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410248^[[m in ^[[33mnewmin^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410248^[[m <^[[33mnewmin^[[m+4>:  ^[[32mmov^[[m   ^[[31mx3^[[m, ^[[31mx20^[[m
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x000000000041024c^[[m in ^[[33mnewmin^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x41024c^[[m <^[[33mnewmin^[[m+8>:  ^[[32mbl^[[m    ^[[34m0x410070^[[m <^[[33mprintf@plt^[[m>
+^[[?2004h(gdb) ni
+^[[?2004l^Mx = -11, y = 48344, min = 48344
+^[[34m0x0000000000410250^[[m in ^[[33mnewmin^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410250^[[m <^[[33mnewmin^[[m+12>: ^[[32madd^[[m   ^[[31mx19^[[m, ^[[31mx19^[[m, ^[[34m#0x1^[[m
+^[[?2004h(gdb) ^[[7mp/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x19^H^[[C
+^[[?2004l^M$22 = -11
+^[[?2004h(gdb) ^[[7mp/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x19^H^[[C^H^[[K^H^[[K20
+^[[?2004l^M$23 = 48344
+^[[?2004h(gdb) ^[[7mp/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x19^H^[[C^H^[[K^H^[[K21
+^[[?2004l^M$24 = 14641
+^[[?2004h(gdb) ^[[7mp/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x19^H^[[C^H^[[K^H^[[K28
+^[[?2004l^M$25 = 48344
+^[[?2004h(gdb) ^[[7mp/d $x19^[[27m^M^[[C^[[C^[[C^[[C^[[C^[[Cp/d $x19^H^[[C^H^[[K^H^[[K27
+^[[?2004l^M$26 = -814
+^[[?2004h(gdb) ni
+^[[?2004l^M^[[34m0x0000000000410254^[[m in ^[[33mnewmin^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x410254^[[m <^[[33mnewmin^[[m+16>: ^[[32mb^[[m     ^[[34m0x4101dc^[[m <^[[33mpretest1^[[m>
+^[[?2004h(gdb) ni
+^[[?2004l^M
+Breakpoint 1, ^[[34m0x00000000004101ec^[[m in ^[[33mloop1^[[m ()
+^[[?2004h^[[?2004l^M^[[?2004h(gdb) ^[[7mx/i $pc^[[27m^H^H^H^H^H^H^Hx/i $pc
+^[[?2004l^M=> ^[[34m0x4101ec^[[m <^[[33mloop1^[[m+4>:   ^[[32mmul^[[m   ^[[31mx21^[[m, ^[[31mx21^[[m, ^[[31mx21^[[m
+^[[?2004h(gdb) quit
+^[[?2004l^M^[[?2004hA debugging session is active.
+
+        Inferior 1 [process 2576050] will be killed.
+
+Quit anyway? (y or n) y
+^[[?2004l^M^[]0;syed.omar@csa2:~^G^[[?2004h[UC syed.omar@csa2 ~] quit
+^[[?2004l^Mbash: quit: command not found
+^[]0;syed.omar@csa2:~^G^[[?2004h[UC syed.omar@csa2 ~] exit
+^[[?2004l^Mexit
+
+Script done on 2024-09-24 16:54:42-06:00 [COMMAND_EXIT_CODE="127"]
